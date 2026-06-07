@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: telegram-bot
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_updated.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
