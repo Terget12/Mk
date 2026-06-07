@@ -45,7 +45,7 @@ def make_copy_button(label, copy_value):
     return InlineKeyboardButton(text=label, copy_text=CopyTextButton(text=copy_value))
 
 # ================= কনফিগারেশন =================
-BOT_TOKEN = "8532331160:AAF5eQ6XAnerZKn6r7h1HsX62MnXXJqZqHw"
+BOT_TOKEN = "8884847693:AAF_3Gw4_yqQYpCCvGzTmWCXARlyjFGcwU4"
 ADMIN_ID = 6901639746          # ✅ মেইন এডমিন (সর্বোচ্চ ক্ষমতা)
 SUB_ADMIN_ID = 7259639093            # ✅ হার্ডকোডেড সাব-এডমিন ID (না থাকলে None রাখুন)
 
